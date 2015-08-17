@@ -1,6 +1,11 @@
-<% provide(:title, "Home") %>
-<h1>Twitch</h1>
- <p>
-  Welcome to Twitch, a Twitter-like app, based on 
+<div class= "center jumbotron">
+ <h1>Welcome to Twitch</h1>
+
+ <h2>This is the home page for a Twitter-like app, based on 
   <a href="www.railstutorial.org">Ruby on Rails Tutorial</a>.
- </p>
+ </h2>
+
+ <%= link_to 'Sign up now', '#', class: 'btn btn-lg btn-primary' %>
+</div>
+
+<%= link_to image_tag('rails.png', alt: 'Rails logo'), 'http://rubyonrails.org/' %>
